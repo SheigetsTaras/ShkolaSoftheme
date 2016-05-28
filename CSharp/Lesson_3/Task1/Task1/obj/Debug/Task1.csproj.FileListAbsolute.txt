@@ -1,1 +1,7 @@
 c:\users\1\documents\visual studio 2015\Projects\Task1\Task1\bin\Debug\Task1.exe.config
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_3\Task1\Task1\bin\Debug\Task1.exe.config
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_3\Task1\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_3\Task1\Task1\bin\Debug\Task1.exe
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_3\Task1\Task1\bin\Debug\Task1.pdb
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_3\Task1\Task1\obj\Debug\Task1.exe
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_3\Task1\Task1\obj\Debug\Task1.pdb

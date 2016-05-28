@@ -10,7 +10,8 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-
+            Recursion recursion = new Recursion();
+            recursion.StartPoint();
         }
     }
 }
