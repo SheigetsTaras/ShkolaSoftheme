@@ -8,7 +8,7 @@ namespace Task1
 {
     class Recursion
     {
-        DateTime _dateOfBirth = new DateTime();
+        DateTime _dateOfBirth;
 
         public void StartPoint()
         {
@@ -67,11 +67,11 @@ namespace Task1
                 RecursionCalculate();
             }
 
-            _dateOfBirth.AddDays(DateTime.Parse(day));
-            _dateOfBirth.AddMonths(mounth);
-            _dateOfBirth.AddYears(year);
+            _dateOfBirth = new DateTime(year, mounth, day);
+            //_dateOfBirth.AddMonths(mounth);
+            //_dateOfBirth.AddYears(year);
 
-            Console.WriteLine(_dateOfBirth);
+            Console.WriteLine(_dateOfBirth.ToString("dd - MM - yyyy"));
         }
     }
 }
