@@ -12,6 +12,7 @@ namespace Les1
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Taras Sheigets");
+            Console.ResetColor();
         }
     }
 }

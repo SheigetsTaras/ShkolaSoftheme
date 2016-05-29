@@ -1,0 +1,6 @@
+C:\CSharpHW\Lesson2\2\2\bin\Debug\2.exe.config
+C:\CSharpHW\Lesson2\2\2\bin\Debug\2.exe
+C:\CSharpHW\Lesson2\2\2\bin\Debug\2.pdb
+C:\CSharpHW\Lesson2\2\2\obj\Debug\2.exe
+C:\CSharpHW\Lesson2\2\2\obj\Debug\2.pdb
+C:\CSharpHW\Lesson2\2\2\obj\Debug\2.csprojResolveAssemblyReference.cache
