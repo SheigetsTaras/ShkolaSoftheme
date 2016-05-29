@@ -68,10 +68,49 @@ namespace Task1
             }
 
             _dateOfBirth = new DateTime(year, mounth, day);
-            //_dateOfBirth.AddMonths(mounth);
-            //_dateOfBirth.AddYears(year);
 
             Console.WriteLine(_dateOfBirth.ToString("dd - MM - yyyy"));
+
+            AgeCalculate();
+            ZodiacSingCalculate();
+        }
+
+        private void ZodiacSingCalculate()
+        {
+            if (_dateOfBirth.Month == 1 && _dateOfBirth.Day >= 20 || _dateOfBirth.Month == 2 && _dateOfBirth.Day <= 18)
+                Console.WriteLine("Zodiac Sign is Aquarius");
+            if (_dateOfBirth.Month == 2 && _dateOfBirth.Day >= 19 || _dateOfBirth.Month == 3 && _dateOfBirth.Day <= 20)
+                Console.WriteLine("Zodiac Sign is Pisces");
+            if (_dateOfBirth.Month == 3 && _dateOfBirth.Day >= 21 || _dateOfBirth.Month == 4 && _dateOfBirth.Day <= 19)
+                Console.WriteLine("Zodiac Sign is Aries");
+            if (_dateOfBirth.Month == 4 && _dateOfBirth.Day >= 20 || _dateOfBirth.Month == 5 && _dateOfBirth.Day <= 20)
+                Console.WriteLine("Zodiac Sign is Taurus");
+            if (_dateOfBirth.Month == 5 && _dateOfBirth.Day >= 21 || _dateOfBirth.Month == 6 && _dateOfBirth.Day <= 20)
+                Console.WriteLine("Zodiac Sign is Gemini");
+            if (_dateOfBirth.Month == 6 && _dateOfBirth.Day >= 21 || _dateOfBirth.Month == 7 && _dateOfBirth.Day <= 22)
+                Console.WriteLine("Zodiac Sign is Cancer");
+            if (_dateOfBirth.Month == 7 && _dateOfBirth.Day >= 23 || _dateOfBirth.Month == 8 && _dateOfBirth.Day <= 22)
+                Console.WriteLine("Zodiac Sign is Leo");
+            if (_dateOfBirth.Month == 8 && _dateOfBirth.Day >= 23 || _dateOfBirth.Month == 9 && _dateOfBirth.Day <= 22)
+                Console.WriteLine("Zodiac Sign is Virgo");
+            if (_dateOfBirth.Month == 9 && _dateOfBirth.Day >= 23 || _dateOfBirth.Month == 10 && _dateOfBirth.Day <= 22)
+                Console.WriteLine("Zodiac Sign is Libra");
+            if (_dateOfBirth.Month == 10 && _dateOfBirth.Day >= 23 || _dateOfBirth.Month == 11 && _dateOfBirth.Day <= 22)
+                Console.WriteLine("Zodiac Sign is Scorpio");
+            if (_dateOfBirth.Month == 11 && _dateOfBirth.Day >= 22 || _dateOfBirth.Month == 12 && _dateOfBirth.Day <= 21)
+                Console.WriteLine("Zodiac Sign is Sagittarius");
+            if (_dateOfBirth.Month == 12 && _dateOfBirth.Day >= 22 || _dateOfBirth.Month == 1 && _dateOfBirth.Day <= 19)
+                Console.WriteLine("Zodiac Sign is Capricorn");
+        }
+
+        private void AgeCalculate()
+        {
+            TimeSpan age = DateTime.Now - _dateOfBirth;
+
+            if (DateTime.IsLeapYear(_dateOfBirth.Year))
+                Console.WriteLine(age.Days / 366);
+            else
+                Console.WriteLine(age.Days / 365);
         }
     }
 }
