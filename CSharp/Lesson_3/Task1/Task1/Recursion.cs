@@ -18,17 +18,28 @@ namespace Task1
         private int EnterDate()
         {
             string dateValue = "";
+            int intDateValue = 0;
+
             do
             {
-                dateValue = Console.ReadLine();
-                if (string.IsNullOrEmpty(dateValue))
+                try
                 {
-                    Console.Write("Repeat please: ");
+                    dateValue = Console.ReadLine();
+                    if (string.IsNullOrEmpty(dateValue))
+                    {
+                        Console.Write("Repeat please: ");
+                    }
+
+                    intDateValue = int.Parse(dateValue);
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Must be a number");
                 }
 
-            } while (string.IsNullOrEmpty(dateValue));
+            } while (intDateValue == 0);
 
-            return int.Parse(dateValue);
+            return intDateValue;
         }
 
         private void RecursionCalculate()
