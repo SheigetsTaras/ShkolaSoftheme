@@ -1,0 +1,6 @@
+C:\CSharpHW\Lesson5\Task1\Task1\bin\Debug\Task1.exe.config
+C:\CSharpHW\Lesson5\Task1\Task1\bin\Debug\Task1.exe
+C:\CSharpHW\Lesson5\Task1\Task1\bin\Debug\Task1.pdb
+C:\CSharpHW\Lesson5\Task1\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+C:\CSharpHW\Lesson5\Task1\Task1\obj\Debug\Task1.exe
+C:\CSharpHW\Lesson5\Task1\Task1\obj\Debug\Task1.pdb
