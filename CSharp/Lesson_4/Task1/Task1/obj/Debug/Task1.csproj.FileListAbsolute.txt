@@ -1,0 +1,14 @@
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\bin\Debug\Task1.exe.config
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\MainWindow.g.cs
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\App.g.cs
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1_MarkupCompile.cache
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1_MarkupCompile.lref
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\bin\Debug\Task1.exe
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\bin\Debug\Task1.pdb
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\MainWindow.baml
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.g.resources
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.Properties.Resources.resources
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.csproj.GenerateResource.Cache
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.exe
+c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.pdb
