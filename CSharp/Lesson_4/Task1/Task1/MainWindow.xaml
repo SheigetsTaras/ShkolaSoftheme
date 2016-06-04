@@ -8,16 +8,15 @@
         Title="MainWindow" Height="400.452" Width="525">
     <Grid Margin="0,0,0.4,-19.4">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="116*"/>
-            <ColumnDefinition Width="143*"/>
+            <ColumnDefinition Width="232*"/>
+            <ColumnDefinition Width="282*"/>
+            <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <TextBox x:Name="tbFirstName" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label" Content="First name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="66"/>
         <TextBox x:Name="tbLastName" HorizontalAlignment="Left" Height="23" Margin="10,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label_Copy" Content="Last name" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Height="26" Width="64"/>
-        <TextBox x:Name="tbBirth" HorizontalAlignment="Left" Height="23" Margin="10,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label_Copy1" Content="Birth date" HorizontalAlignment="Left" Margin="10,128,0,0" VerticalAlignment="Top" Height="26" Width="62"/>
-        <TextBox x:Name="tbGender" HorizontalAlignment="Left" Height="23" Margin="10,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label_Copy2" Content="Gender" HorizontalAlignment="Left" Margin="10,187,0,0" VerticalAlignment="Top" Height="26" Width="50"/>
         <TextBox x:Name="tbEmail" HorizontalAlignment="Left" Height="23" Margin="10,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label_Copy3" Content="Email" HorizontalAlignment="Left" Margin="10,246,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
@@ -25,9 +24,14 @@
         <Label x:Name="label_Copy4" Content="Phone number" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Height="26" Width="88"/>
         <TextBox x:Name="tbAdditional" HorizontalAlignment="Left" Height="172" Margin="135,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="361" Grid.ColumnSpan="2"/>
         <Label x:Name="label_Copy5" Content="Additional info" HorizontalAlignment="Left" Margin="176,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.204,1.593" Width="88" Height="26" Grid.ColumnSpan="2"/>
-        <Button x:Name="btReg" Content="Registration" HorizontalAlignment="Left" Height="37" Margin="25,268,0,0" VerticalAlignment="Top" Width="117" Click="button_Click" Grid.Column="1"/>
-        <Button x:Name="btExit" Content="Exit" HorizontalAlignment="Left" Height="37" Margin="147,268,0,0" VerticalAlignment="Top" Width="117" Grid.Column="1"/>
-        <Button x:Name="btCheck" Content="Check Fields" HorizontalAlignment="Left" Height="37" Margin="135,268,0,0" VerticalAlignment="Top" Width="117" Click="button_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="btReg" Content="Registration" HorizontalAlignment="Left" Height="37" Margin="25,268,0,0" VerticalAlignment="Top" Width="117" Click="btReg_Click" Grid.Column="1"/>
+        <Button x:Name="btExit" Content="Exit" HorizontalAlignment="Left" Height="37" Margin="147,268,0,0" VerticalAlignment="Top" Width="117" Grid.Column="1" Click="btExit_Click"/>
+        <Button x:Name="btCheck" Content="Check Fields" HorizontalAlignment="Left" Height="37" Margin="135,268,0,0" VerticalAlignment="Top" Width="117" Click="btCheck_Click" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="120">
+            <ListBoxItem Content="Male"/>
+            <ListBoxItem Content="Female"/>
+        </ComboBox>
+        <TextBox x:Name="tbBirth" HorizontalAlignment="Left" Height="23" Margin="10,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

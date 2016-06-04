@@ -12,3 +12,17 @@ c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\T
 c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.csproj.GenerateResource.Cache
 c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.exe
 c:\users\1\documents\visual studio 2015\Projects\Lesson4\Task1\Task1\obj\Debug\Task1.pdb
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\bin\Debug\Task1.exe.config
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\Task1.exe
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\Task1.pdb
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\bin\Debug\Task1.exe
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\bin\Debug\Task1.pdb
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\MainWindow.g.cs
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\App.g.cs
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\Task1_MarkupCompile.cache
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\Task1_MarkupCompile.lref
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\MainWindow.baml
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\Task1.g.resources
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\Task1.Properties.Resources.resources
+C:\Users\targa\Documents\GitHub\ShkolaSoftheme\CSharp\Lesson_4\Task1\Task1\obj\Debug\Task1.csproj.GenerateResource.Cache

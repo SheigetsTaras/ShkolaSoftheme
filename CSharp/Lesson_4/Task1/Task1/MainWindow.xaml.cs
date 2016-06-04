@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -26,14 +27,24 @@ namespace Task1
             btReg.IsEnabled = false;
         }
 
-        private void CheckFields()
+        private void btCheck_Click(object sender, RoutedEventArgs e)
         {
+            CheckFields checkFields = new CheckFields();
+            if (checkFields.CheckField(tbFirstName.Text, tbLastName.Text, tbBirth.Text, tbEmail.Text, tbPhone.Text, tbAdditional.Text))
+                btReg.IsEnabled = true;
 
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void btExit_Click(object sender, RoutedEventArgs e)
         {
+            this.Close();
+        }
 
+        private void btReg_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Registration completed successfully");
+            this.Close();
         }
     }
 }
+    
