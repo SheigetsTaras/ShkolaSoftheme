@@ -3,15 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows.Media;
 
 namespace Task1
 {
     class CheckFields
     {
-        MainWindow main = new MainWindow();
-
         enum errorList
         {
             Ok = 1,
@@ -40,7 +36,6 @@ namespace Task1
         {
             if (name.Length < 255 && name.Length != Regex.Matches(name, "[A-Za-z]").Count)
             {
-                main.tbLastName.BorderBrush = Brushes.Red;
                 return errorList.BadLastName.ToString();
             }
             else
