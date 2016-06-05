@@ -1,0 +1,14 @@
+C:\CSharpHW\Lesson6\Task1\Task1\bin\Debug\Task1.exe.config
+C:\CSharpHW\Lesson6\Task1\Task1\bin\Debug\Task1.exe
+C:\CSharpHW\Lesson6\Task1\Task1\bin\Debug\Task1.pdb
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\Task1.csprojResolveAssemblyReference.cache
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\MainWindow.g.cs
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\App.g.cs
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\Task1_MarkupCompile.cache
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\Task1_MarkupCompile.lref
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\MainWindow.baml
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\Task1.g.resources
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\Task1.Properties.Resources.resources
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\Task1.csproj.GenerateResource.Cache
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\Task1.exe
+C:\CSharpHW\Lesson6\Task1\Task1\obj\Debug\Task1.pdb
